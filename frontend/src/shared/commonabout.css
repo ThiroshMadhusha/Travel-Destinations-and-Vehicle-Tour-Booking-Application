@@ -1,0 +1,15 @@
+.common__about {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/images/about.jpg") no-repeat center center;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.common__about h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
