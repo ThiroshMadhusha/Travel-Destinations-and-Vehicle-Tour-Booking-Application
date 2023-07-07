@@ -1,0 +1,76 @@
+.register__form {
+  padding: 50px;
+  background: rgb(15, 124, 248);
+  position: relative;
+}
+
+.register__form .user img {
+  width: 100%;
+}
+.register__form h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register__form {
+  width: 50%;
+}
+
+.register__form input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  color: var(--heading-color);
+}
+.register__form input:focus {
+  outline: none;
+}
+
+.registerauth__btn{
+    background: var(--secondary-color) !important;
+    color: #fff !important;
+    width: 100%;
+}
+.registerauth__btn:hover{
+    background: var(--heading-color) !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.register__form p{
+    font-size: .9rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+
+}
+.register__container {
+  box-shadow: rgb(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-top: 50px;
+  background: rgb(248, 166, 15);
+}
+.register__container .user {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -9%;
+  left: 50%;
+  transform: translate(-50%, -9%);
+  background: black;
+  border-radius: 50px;
+}
+.register__form p a{
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 600;
+    color: black;
+}
+.register__form p a:hover{
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,20 @@
+
+/* .thank__you{
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 2rem;
+    border-radius: 20px;
+} */
+.thank__you span i{
+    font-size: 4rem;
+    color: rgb(12, 219, 12);
+}
+.thank__you h1{
+    font-size: 5.6rem;
+    font-family: var(--subtitle-font-name);
+    color: red;
+}
