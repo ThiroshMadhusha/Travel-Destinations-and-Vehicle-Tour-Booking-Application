@@ -1,0 +1,79 @@
+.booking{
+    padding: 1.5rem;
+    border-radius: .8rem;
+    border: 2px solid rgb(3, 115, 206);
+    /* sticky eken left side eka scroll karaddi ekata adalawa right side eka scroll wenawa */
+    position: sticky;
+    top: 100px;
+}
+.booking__top h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.booking__top h3 span{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.booking__top span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.booking__top span i{
+    color: var(--secondary-color);
+}
+.booking__top{
+    padding-bottom: .8rem;
+    border-bottom: 2px solid rgb(88, 193, 235);
+}
+
+.booking__form{
+    padding-top: 1rem;
+
+}
+.booking__form h5{
+    margin-bottom: 1rem;
+}
+
+.booking__form input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: .8rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgb(148, 206, 240);
+}
+/* active input background border remove */
+.booking__form input:focus{
+    outline: none;
+}
+
+.booking__info-form{
+    padding: 1rem;
+    border: 1px solid rgb(233, 237, 241);
+    border-radius: .8rem;
+}
+
+.booking__bottom li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking__bottom li h5,.booking__bottom li span{
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.booking__bottom{
+    margin-top: .5rem;
+}
+.total h5,.total span{
+color: var(--heading-color) !important;
+font-weight: 700 !important;
+font-size: 1.1rem !important;
+}
+
