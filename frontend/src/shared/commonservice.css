@@ -1,0 +1,16 @@
+.common__service {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url("../assets/images/service4.jpg") no-repeat center center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .common__service h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
